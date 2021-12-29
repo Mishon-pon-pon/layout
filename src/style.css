@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+    border: 5px solid;
+}
+
+header {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid;
+}
