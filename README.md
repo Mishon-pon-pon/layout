@@ -1,1 +1,1 @@
-#Webpack config for quick test css and html.
+# Webpack config for quick test css and html.
