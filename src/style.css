@@ -1,16 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 500px;
-  height: 500px;
-  background-color: lightgreen;
-  border: 5px solid;
+  margin: 0;
 }
 
 header {
-  width: 400px;
-  height: 400px;
+  background: purple;
+  height: 100px;
+}
+
+h1 {
   text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  background: aqua;
+  padding: 10px;
+  margin: 10px;
+}
+
+.inline_wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.inline {
+  border: 1px solid lightcoral;
+  background-color: lightpink;
+  padding: 5px;
+  margin: 10px;
+  flex: 1;
+}
+/* Add your flexbox CSS below here */
+
+.flex_map {
+  width: 561px;
+  height: 331px;
+  border: 1px solid gray;
+  display: flex;
+  margin: 5px;
+}
+
+.map_container {
+  width: auto;
+  margin: 5px;
   border: 1px solid;
+  border-radius: 6px;
+  flex: 1;
+  background-color: #f9ebc7;
+}
+
+.top {
+  border: 1px solid;
+  display: flex;
+  height: 25%;
+}
+
+.top_left {
+  border: 1px solid red;
+  flex: 2;
+}
+.top_mid {
+  border: 1px solid green;
+  flex: 1;
+}
+.top_right {
+  border: 1px solid gold;
+  flex: 2;
+}
+
+.middle {
+  border: 1px solid blue;
+  height: 50%;
+}
+
+.bottom {
+  border: 1px solid slateblue;
+  height: 25%;
+}
+
+#canvas {
+  border: 1px solid;
+  border-radius: 6px;
+  background-color: #f9ebc7;
+  flex: 1;
+  margin: 5px;
+}
+
+.flex_map {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
