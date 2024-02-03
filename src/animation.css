@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.animation {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 125px;
+}
+.animation__item {
+  display: inline;
+  height: 100px;
+  flex-grow: 1;
+  border: 1px solid;
+  background-color: lightblue;
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: 100;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+    margin-top: 0;
+  }
+  50% {
+    transform: rotate(4320deg);
+    margin-top: calc(100% - 580px);
+  }
+
+  100% {
+    transform: rotate(0deg);
+    margin-top: 0;
+  }
+}
+
+.layout {
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  border: 1px solid gray;
+}
+
+.layout__item {
+  height: 100px;
+  border: 1px solid red;
+}

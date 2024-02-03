@@ -15,7 +15,7 @@ module.exports = (env) => {
     },
     plugins: [
       new HTMLWebpackPlugin({
-        template: path.join(__dirname, "src/index.html"),
+        template: path.join(__dirname, "src/animation.html"),
         filename: "index.html",
       }),
       new CleanWebpackPlugin(),

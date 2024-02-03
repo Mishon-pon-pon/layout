@@ -1,0 +1,13 @@
+.grid {
+  border: 1px solid lightgray;
+  width: 100%;
+  height: auto;
+}
+
+#warning {
+  display: grid;
+  background: #fcc;
+  padding: 0.5em;
+  grid-template: 1fr;
+  grid-template-columns: repeat(7, 1fr);
+}
